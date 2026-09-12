@@ -271,6 +271,34 @@
     transition: border-color 0.2s;
   }
   .yt-banner:hover { border-color: rgba(255,80,80,0.4); }
+
+  .note-banner {
+    background: var(--dark);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 12px;
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    transition: border-color 0.2s;
+    margin-top: 12px;
+  }
+  .note-banner:hover { border-color: rgba(65,201,180,0.4); }
+  .note-icon {
+    width: 40px;
+    height: 40px;
+    background: #41C9B4;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0D0D0D;
+    font-family: 'Noto Serif JP', serif;
+  }
   .yt-icon {
     width: 40px;
     height: 40px;
@@ -379,11 +407,21 @@
   </div>
 
   <!-- YouTube Banner -->
-  <a href="https://www.youtube.com/@around50siwassan" target="_blank" rel="noopener" class="yt-banner">
+  <a href="https://www.youtube.com/@iwassan50s" target="_blank" rel="noopener" class="yt-banner">
     <div class="yt-icon">▶</div>
     <div class="yt-text">
       <strong>Around50s Iwassan</strong>
       <small>クレカ・マイル・ホテル攻略チャンネル</small>
+    </div>
+    <div class="yt-arrow">›</div>
+  </a>
+
+  <!-- note Banner -->
+  <a href="https://note.com/joyful_allium943/n/nb6ab3d03a7f9" target="_blank" rel="noopener" class="note-banner">
+    <div class="note-icon">note</div>
+    <div class="yt-text">
+      <strong>エポスカード大改定を徹底解説</strong>
+      <small>ゴールド維持かプラチナ昇格か｜note記事はこちら</small>
     </div>
     <div class="yt-arrow">›</div>
   </a>
