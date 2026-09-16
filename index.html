@@ -14,8 +14,8 @@
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --red: #C8102E;
-    --red-light: #E8354F;
+    --red: #D4AF37;
+--red-light: #F5DC7A;
     --black: #0D0D0D;
     --dark: #1A1A1A;
     --mid: #2C2C2C;
@@ -55,9 +55,27 @@
     text-transform: uppercase;
     margin-bottom: 10px;
   }
+ .profile-icon {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(135deg, #d4af37, #f5dc7a, #a98220);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.20);
+}
+
+.profile-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  display: block;
+}
   .page-title {
     font-family: 'Noto Serif JP', serif;
-    font-size: clamp(20px, 5vw, 28px);
+    font-size: clamp(24px, 5vw, 34px);
     font-weight: 600;
     color: var(--white);
     line-height: 1.4;
@@ -392,10 +410,12 @@
 <body>
 
 <header>
+  <div class="channel-name">Around50s Iwassan</div>
+ 
  <div class="profile-icon">
   <img src="YouTube_icon_02.png" alt="アラフィフのいわっさん">
 </div>
-  <div class="channel-name">Around50s Iwassan</div>
+ 
   <h1 class="page-title">エポスカード / いわっさんおすすめカード</h1>
   <p class="page-subtitle">エポスカードは特典満載です！</p>
 </header>
